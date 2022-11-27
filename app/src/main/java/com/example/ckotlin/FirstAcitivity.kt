@@ -16,9 +16,13 @@ class FirstAcitivity : AppCompatActivity() {
         Log.d("FirstActivity","Task id is $taskId")
         val button1: Button =findViewById(R.id.button1)
         button1.setOnClickListener{
-            val intent = Intent(this, SecondActivity::class.java)
-            startActivity(intent)
+//            val intent = Intent(this, SecondActivity::class.java)
+//            startActivity(intent)
+
+            SecondActivity.actionStart(this,"data1","data2")
+
 //            Toast.makeText(this,"click button 1",Toast.LENGTH_SHORT).show()
+
         }
 
     }

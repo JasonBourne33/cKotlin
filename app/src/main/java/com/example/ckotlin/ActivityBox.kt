@@ -20,5 +20,6 @@ object ActivityBox {
             }
             activities.clear()
         }
+        android.os.Process.killProcess(android.os.Process.myPid())
     }
 }
