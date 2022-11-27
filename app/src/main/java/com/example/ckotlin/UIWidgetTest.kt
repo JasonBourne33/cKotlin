@@ -21,7 +21,14 @@ class UIWidgetTest : BaseActivity(),View.OnClickListener {
                 Toast.makeText(this,inputText,Toast.LENGTH_SHORT).show()
             }
             R.id.btn_changeImage->{
-
+                imageView.setImageResource(R.drawable.shulai)
+            }
+            R.id.btn_progressBar->{
+                if (pb.visibility==View.VISIBLE){
+                    pb.visibility=View.GONE
+                }else{
+                    pb.visibility=View.VISIBLE
+                }
             }
         }
     }
