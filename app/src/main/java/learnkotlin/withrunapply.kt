@@ -1,6 +1,8 @@
 package com.example.ckotlin
 
 fun main() {
+
+
     val list= listOf("Apple","Banana","Pear","Grape")
 
 //    val result= with(StringBuffer()){
@@ -11,7 +13,7 @@ fun main() {
 //        append("ate all fruits.")
 //        toString()
 //    }
-
+//
 //    val result= StringBuilder().run{
 //        append("start eating fruits.\n")
 //        for (fruit in list){
@@ -31,3 +33,4 @@ fun main() {
     }
     println(result.toString())
 }
+
